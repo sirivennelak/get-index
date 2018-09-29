@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><link rel="stylesheet" href="index.css">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+
+<div class="maindiv">
+<div class="personal">
+  <h3>personal details</h3>
+  name: <input type="text" name="name" value=""placeholder="name" id="name"><br><br>
+   rollno:<input type="text" name="rollno" value="" placeholder="rollno" id="rollno"><br><br>
+     emailid:<input type="text" name="emailid" value=""placeholder="emailid" id="emailid"><br><br>
+
+</div>
+<h3>CARRIER OBJECTIVE</h3>
+  <select class="co" id="c1" >
+    <option value="select">select</option>
+    <option value="To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.">To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</option>
+  </select>
+  <h4>EDUCATIONAL DETAILS</h4>
+  <div class="main">
+
+
+  <div class="edudiv1">
+
+      <select class="c1"id="ssc">
+  <option value="SSC">board of ssc</option>
+  <option value="CBSE">CBSE</option><br>
+
+
+</select><br>
+<input type="radio" name="smarks" value="percentage" id="sscmarks"> percentage<br>
+<input type="radio" name="smarks" value="cgpa" id="sscmarks1" > cgpa<br>
+marks:<input type="text" name="marks" value=""placeholder="percentage/cgpa" id="sscper" > <br><br>
+ year of passing:<input type="text" name="pass" value="" id="sscyop" ><br><br>
+ schoolname:<input type="text" name="pass" value=""id="sch" ><br>
+ </div>
+ <div class="edudiv2">
+
+     <select id="inter">
+ <option value="inter">inter</option>
+ <option value="diploma">diploma</option><br>
+
+
+ </select><br>
+ <input type="radio" name="imarks" value="percentage" id="intmks"> percentage<br>
+ <input type="radio" name="imarks" value="cgpa" id="intmks1"> cgpa<br>
+ marks:<input type="text" name="marks" value=""placeholder="percentage/cgpa"id="intper" > <br><br>
+ year of passing:<input type="text" name="pass" value="" id="intyop"><br><br>
+ college name:<input type="text" name="pass" value="" id="intcol"><br>
+ </div>
+ <div class="edudiv3" >
+ <select id="course">
+
+   <option value="betech">betech</option>
+   <option value="MBA">MBA</option>
+   <option value="mtech">mtech</option>
+   <option value="mca">mca</option>
+ </select><br>
+ <select id="branch">
+ <option value="cse">cse</option>
+ <option value="eee">eee</option>
+ <option value="mech">mech</option>
+ <option value="ece">ece</option>
+ <option value="civil">civil</option>
+ </select><br>
+ <input type="radio" name="bmarks" value="percentage" id="bmks"> percentage<br>
+ <input type="radio" name="bmarks" value="cgpa" id="bmks1" > cgpa<br>
+ marks:<input type="text" name="marks" value="" placeholder="percentage/cgpa" id="bper"> <br><br>
+ year of passing:<input type="date" name="pass" value="" id="byop" ><br><br>?
+ college name:<input type="text" name="col" value="" id="bcol"><br>
+ </div>
+</div>
+<button type="button" name="button" onclick="getdetails()">SUBMIT</button>
+
+    </div>
+
+
+
+
+
+
+
+
+    </form>
+
+
+  </body>
+  <script type="text/javascript" src="main.js">
+
+
+  </script>
+  <script >
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("service.js");
+console.log(" serviceWorker registered success.....!");
+  }
+  err=>{
+    console.log("error occured");
+  }
+
+  </script>
+</html>

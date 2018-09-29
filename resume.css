@@ -1,0 +1,13 @@
+.maindiv{
+  display: flex;
+  justify-content: space-between;
+}
+.leftdiv{
+  width: 30%;
+  background: pink;
+
+}
+.rightdiv{
+  width:68%;
+  background: skyblue;
+}

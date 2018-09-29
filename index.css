@@ -1,0 +1,36 @@
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  box-sizing: border-box;
+background:#3A3F8F;
+}
+.edudiv1,.edudiv2,.edudiv3{
+  border: 2px solid #000;
+  margin:5px;
+
+}
+.maindiv{
+  background: skyblue;
+  text-align: center;
+  padding: 2%;
+
+}
+.edudiv1{
+  background: #E5A9DB;
+  text-align: center;
+
+}
+.edudiv2{
+  background: blue;
+    text-align: center;
+}
+.edudiv3{
+  background:  #E5A9DB;
+    text-align: center;
+}
+.personal{
+  margin-bottom:1%;
+  border: solid #000;
+}
